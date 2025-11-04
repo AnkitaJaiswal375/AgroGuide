@@ -1,0 +1,23 @@
+<body>
+<form action="check_multilist.php" method="post">
+<table border=1>
+<tr><td> Select your favorite server side language:</td><td align = 'right'>
+ <select name = "lang[]" multiple="multiple">
+<option value = "C"> C </option>
+<option value = "Perl"> Perl </option>
+<option value = "Servlets"> Servlets </option>
+<option value = "PHP"> PHP </option>
+<option value = "ASP"> ASP </option>
+<option value = "JSP"> JSP </option>
+ </select></td></tr>
+<tr><td> Select your favorite Operating Systems: </td> <td align = 'left'>
+ <input type = "checkbox" name = "OS[]" value="Windows XP" checked="checked"/>
+Windows XP</br>
+ <input type = "checkbox" name = "OS[]" value="Windows 7" /> Windows 7</br>
+ <input type = "checkbox" name = "OS[]" value="Linux"/> Linux</br>
+ <input type = "checkbox" name = "OS[]" value="Unix"/> Unix</br>
+</td></tr>
+<tr><td></td><td align = 'right'><input type = "submit"
+name="submit"value="GO"/></td></tr>
+</table>
+</form></body>
